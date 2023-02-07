@@ -6,7 +6,7 @@ import requests
 # --| User Config |---------------------------------------------------
 
 # Filename(s)
-BASE_FILE = None "base.png"
+BASE_FILE = None #"base.png"
 OUT_FILE = "out.gif"
 
 # Radar images
