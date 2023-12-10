@@ -4,19 +4,12 @@ from PIL import Image
 import requests
 
 # --| User Config |---------------------------------------------------
-<<<<<<< HEAD
 # Filenames
 BASE_FILE = None        # filename or `None` to use color
 BASE_COLOR = (0, 0, 0)  # color RGB tuple
 RAW_FILE = "raw.gif"    # original size from rainview API
 SCALED_FILE = "out.gif" # scaled
 PIXEL_FILE="pxl.gif"    # pixelated
-=======
-
-# Filename(s)
-BASE_FILE = None #"base.png"
-OUT_FILE = "out.gif"
->>>>>>> 6b423c1a286ce1ebc6735679d77ea5f01a8c05bb
 
 # Radar images
 API_URL = "https://api.rainviewer.com/public/weather-maps.json"
